@@ -8,15 +8,14 @@ public class Verificando {
     Scanner teclado = new Scanner(System.in);
     int numeroQta[] = new int[5];
 
-    public int digitarNumero(){
+    public void digitarNumero(){
         for (int i = 0; i < numeroQta.length; i++) {
             System.out.println("Digite um numero: ");
             numeroQta[i] = teclado.nextInt();
         }
-        return 0;
     }
 
-    public int coferirNumero(){
+    public void coferirNumero(){
 
         int menorValor = Integer.MAX_VALUE;
 
@@ -27,6 +26,5 @@ public class Verificando {
             }
         }
         System.out.println(menorValor);
-        return 0;
     }
 }

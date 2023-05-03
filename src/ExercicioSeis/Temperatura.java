@@ -7,13 +7,12 @@ public class Temperatura {
     public double celcius;
     public double fahrenheit;
 
-    public double transformar(){
+    public void transformar(){
         System.out.println("Digite a temperatura em Celcius: ");
         celcius = teclado.nextDouble();
 
         fahrenheit = ((9*celcius) + 160) / 5;
         System.out.println(fahrenheit);
-        return fahrenheit;
     }
 
 

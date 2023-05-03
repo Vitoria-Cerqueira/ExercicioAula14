@@ -8,7 +8,7 @@ public class Custo {
 
     public double precoCusto;
 
-    public double produto(){
+    public void produto(){ // é um void porque não precisa de retorno, é um vazio
 
 
         System.out.println("Digite o preço de custo: ");
@@ -21,7 +21,7 @@ public class Custo {
         double valorDaVenda = porcentagem + precoCusto;
 
         System.out.println("Valor de venda do produto é " + valorDaVenda);
-        return 0;
+
 
 
     }

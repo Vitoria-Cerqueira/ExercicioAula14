@@ -4,7 +4,7 @@ public class IMC {
     public static double  altura; // são variaveis publicas
     public static double  peso;
 
-    public double calcularImc(){
+    public void calcularImc(){
         double imc = peso / (altura * altura);
 
         if(imc<18.5){
@@ -24,6 +24,5 @@ public class IMC {
 
         }
 
-        return imc;
     }
 }

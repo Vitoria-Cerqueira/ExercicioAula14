@@ -9,10 +9,10 @@ public class ExDoisPrincipal {
     public static void main(String[] args) {
 
         Scanner teclado = new Scanner(System.in); // criei um scanner
-        Nome usuario = new Nome(); // aqui estou atribuindo para classe um ojeto
+        // aqui estou atribuindo para classe um ojeto
 
         System.out.println("Qual seu nome? "); // aqui estou pedindo o nome pro usuario
-        usuario.coletarNome(teclado.next()); // atribuindo valor para o parametro coletarNome
+        Nome.coletarNome(teclado.next()); // atribuindo valor para o parametro coletarNome
 
     }
 }
